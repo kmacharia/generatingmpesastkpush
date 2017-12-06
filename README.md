@@ -19,7 +19,8 @@ Make a POST request to:
 
 with parameters:
 
-`{
+```
+{
     "BusinessShortCode": "Shortcode (6 digits)",
     "Password": "base64.encode(ShortcodePasskeyTimestamp)",
     "Timestamp": "yyyymmddhhiiss",
@@ -32,7 +33,7 @@ with parameters:
     "AccountReference": "123456",
     "TransactionDesc": "Testing"
 }
-`
+```
 
 Sample request:
 
